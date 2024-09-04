@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <title>Zimgo</title>
+  <link rel = "stylesheet" href="main.css">
+  <link rel = "stylesheet" href="eyestylesheet.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<div class="wrapHeader">
+<header>
+
+  <div class="header-overlay"></div>
+
+
+    <nav>
+      <a href="#">
+        <img src="SVGFiles/logo.svg" alt="Logo">
+      </a>
+
+      <div class="header-left">
+    <ul>
+      <li>
+        <a id="menuExitButton" class = "hide-desktop"><img src="SVGFiles/exitButton.svg" alt="Exit Button"></a>
+      </li>
+      <li>
+        <a href="#" >Home</a>
+      </li>
+      <li>
+        <a href="#aboutSection" >About</a>
+      </li>
+      <li>
+        <a href="#projectSection" >Projects</a>
+      </li>
+      <li>
+        <a href="#contact-section" >Contacts</a>
+
+      </li>
+    </ul>
+  </div>
+  </nav>
+
+
+  <div class="header-right">
+
+  <a href="https://github.com/Zimgo012" target ="_blank" id="github-logo"><img src="SVGFiles/githubLogo.svg" alt="Github Logo" class="github-logo"></a>
+
+    <a href="mailto:belc0019@algonquinlive.com" target ="_blank" id = "mail-logo"><img src="SVGFiles/mailLogo.svg"  alt="Mail Logo" class="mail-logo"></a>
+
+    <a href="https://www.linkedin.com/in/john-rycca-belcina-895950322/" target ="_blank"  id="linkedIn-logo"><img src="SVGFiles/linkedInLogo.svg" alt="LinkedIn Logo" class = "linkedIn-Logo"></a>
+
+    <a id="menuButton"><img src="SVGFiles/burgerButton.svg" alt="Drop Down Button" class ="burgerButton hide-desktop"></a>
+
+  </div>
+
+
+
+</header>
+</div>
+
+
+<main>
+
+  <div class="eye-holder">
+    <img id="outer" src="Images/eye.svg" alt="Eye Background" style="width: 150px;"> <!-- Ensure this is visible and properly sized -->
+    <div class="eyes">
+      <div class="eye-socket eye-left eye">
+        <img src="Images/eyeballs.svg" alt="Eyeball"> <!-- PNG image for the left eyeball -->
+      </div>
+      <div class="eye-socket eye-right eye">
+        <img src="Images/eyeballs.svg" alt="Eyeball"> <!-- PNG image for the right eyeball -->
+      </div>
+    </div>
+  </div>
+
+  <div class="introduction">
+  <h1>
+    hello, it's <span class ="rycca">Rycca</span>!
+  </h1>
+
+  <h2>One idea at a time.</h2>
+  <p>I am an aspiring full-stack software developer based in Mississauga, Ontario, Canada.
+    With a strong passion for building and bringing ideas to life,
+    I focus on creating innovative software solutions and exploring other
+    creative endeavors. My goal is to combine technical expertise with creativity
+    to develop impactful and meaningful projects.</p>
+
+    <a href="mailto:belc0019@algonquinlive.com" class="sayHiButton"><img src="SVGFiles/sayHi.svg"></a>
+  </div>
+
+  <div class="aboutSection" id="aboutSection">
+
+
+
+
+
+    <h1>{ about me } <hr> </h1>
+    <div class="about-divider hide-desktop">
+
+      <div class="about-imageholder">
+        <img src="Images/PhotoID.jpeg" alt ="profile picture" class="tech profile-picture hide-mobile" id="profile-picture">
+      </div>
+
+      <div class="about-paragraph-section">
+    <p>I am currently a Computer Engineering Technology -
+      Computing Science student in Algonquin College and Im in my third semester.
+      Im diving into Java, Spring, and front-end development.
+      I love tackling complex challenges and am always up for learning new things.
+      <span id="techref"><br><br>Here are some technologies I have been working with: </span>
+      </p>
+
+    <ul class ="techstack">
+
+      <div class="tech">
+        <li>Java</li>
+      </div>
+
+      <div class="tech">
+        <li>Spring/SpringBoot</li>
+      </div>
+
+      <div class="tech">
+        <li>JavaScript ES6+</li>
+      </div>
+
+      <div class="tech">
+        <li>HTML/CSS</li>
+      </div>
+
+      <div class="tech">
+        <li>C</li>
+      </div>
+
+      <div class="tech">
+        <li>MySQL</li>
+      </div>
+
+      <div class="tech">
+        <li>PostgreSQL</li>
+
+      </div>
+
+    </ul>
+
+     </div>
+
+
+
+    </div>
+
+  </div>
+
+
+  <div class="projectsSection" id="projectSection">
+    <h1>{ projects } <hr></h1>
+
+<!--    slide show of projects-->
+
+<!--    <div class="projectPreview">-->
+<!--      <div class="projectPreview-image hide-mobile hide-tab">-->
+<!--        <img src="Images/Project1BIG.png" alt="big project preview">-->
+<!--      </div>-->
+<!--    </div>-->
+
+<!--    <div class="project-divider hide-mobile hide-tab">-->
+<!--    buttons here-->
+<!--    </div>-->
+
+    <div class="projectsCard">
+      <div class="imageHolder p1">
+        <img src="Images/InvasionEarth.png" class = "project-image" alt="project preview">
+        <div class ="inside-projectCard">
+          <div class="inside-projectCard-header">
+            <img src="SVGFiles/ProjectLogo.svg" class="projectLogo" alt="project logo">
+            <a href="https://github.com/Zimgo012/AlienVsHumans" target="_blank">
+              <img src="SVGFiles/githubLogo-onHover.svg" class="githubLogo-in-projectCard" alt="gitHub Logo">
+            </a>
+
+          </div>
+
+          <div class="content-inside-projectCard">
+            <h3>Java Text Game</h3>
+            <br>
+            <p>A text-based Java game focusing on
+              object-oriented programming and JavaFX with Apache Maven as build tool.</p>
+            <p class="tech-used">Tech used: Java, JavaFX, CSS, FXML, Apache Maven</p>
+          </div>
+
+        </div>
+
+      </div>
+
+<!-- Future projects here -->
+<!--      <div class="imageHolder p1"></div>-->
+<!--      <div class="imageHolder p1"></div>-->
+
+
+    </div>
+
+  </div>
+
+  <div class="contact-section" id="contact-section">
+    <h1>{ contacts } <hr> </h1>
+
+    <div class="contact-section-divider">
+
+
+    <div class="contact-body-section">
+      <h2>Have a project in mind or just want to say hi?</h2>
+      <p>
+         I'm always open to new opportunities,
+        collaborations, and conversations. Whether you have a question, feedback, or just want to connect,
+        feel free to reach out. Let's create something amazing together!
+      </p>
+    </div>
+
+
+    <form class="contact-form-section" action="https://formspree.io/f/mvgpyrzp" method="POST">
+      <h1>Contact Me</h1>
+    <label>
+      <input type="text" name="first" placeholder="First Name" required>
+    </label>
+    <label>
+      <input type="text" name="last" placeholder="Last Name" required>
+    </label>
+    <label>
+      <input type="email" name="email" placeholder="Email">
+    </label>
+    <label>
+      <textarea rows ="10" cols="30" maxlength="500" name="message" placeholder="message"></textarea>
+    </label>
+    <button type="submit">Send Message</button>
+    </form>
+
+  </div>
+
+  </div>
+
+
+</main>
+<script src="eyefollow.js"></script>
+<script src="index.js"></script>
+
+
+<div class="overlay"></div>
+</body>
+</html>

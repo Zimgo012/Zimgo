@@ -1,0 +1,51 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.eye-holder {
+    display: grid;
+    place-items: center;
+    margin-top: 20em;
+    position: relative;
+    margin-bottom: -5em;
+    z-index: -20;
+    /*transform: scale(3);*/
+    /*scroll-padding-block-end: 100%;*/
+}
+
+.eyes {
+    position: relative;
+    width: 150px;
+    height: 75px;
+
+}
+
+.eye-socket {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    scale: 3;
+
+}
+
+.eye-left {
+    left: -18px;
+    top: -40px;
+
+}
+
+.eye-right {
+    right: -66px;
+    top: -40px;
+}
+
+.eye-socket img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ensures the PNG fits within the div */
+}
+
+#outer{
+    scale: 3;
+}
