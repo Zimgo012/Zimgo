@@ -101,7 +101,7 @@ html {
     top: 0;
     left: 0;
     width: 100%;
-    height: 10.6vh;
+    height: 12vh;
     background-repeat: repeat;
     background-image: url("Images/white-parchment-paper.jpg");
     mix-blend-mode: multiply;
@@ -732,9 +732,9 @@ header{
 
     header{
 
-        .header-overlay{
-            height: 10.6vh;
-        }
+        /*.header-overlay{*/
+        /*    height: 10.6vh;*/
+        /*}*/
 
 
         .header-left{
