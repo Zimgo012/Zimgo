@@ -436,6 +436,7 @@ main{
         margin-top: 2.7em;
         gap: 2em;
 
+
         .contact-body-section{
             justify-items: center;
             /*background-color: #362528;*/
@@ -694,12 +695,14 @@ header{
 
         .contact-section{
 
+
             .contact-body-section{
 
             }
 
             form{
                 gap: 1.5em;
+                width: 500px;
 
                 input{
                     width: 400px;
@@ -900,6 +903,10 @@ header{
                         margin-top:2em;
                         justify-content: center;
                     }
+                }
+
+                form{
+                    width: 500px;
                 }
 
             }
